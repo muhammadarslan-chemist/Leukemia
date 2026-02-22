@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.csv filter=lfs diff=lfs merge=lfs -text
+Feature[[:space:]]Engineering/*.csv filter=lfs diff=lfs merge=lfs -text
+Morgan_Screening_Results/*.csv filter=lfs diff=lfs merge=lfs -text
+PubChemFP_Screening_Results/*.csv filter=lfs diff=lfs merge=lfs -text
