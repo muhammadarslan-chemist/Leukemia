@@ -1,0 +1,18 @@
+{
+  "total_compounds_screened": 100000,
+  "predicted_active": 7213,
+  "predicted_inactive": 92787,
+  "active_percentage": 7.213,
+  "inactive_percentage": 92.78699999999999,
+  "average_active_probability": 0.17652593553066254,
+  "model_name": "XGBoost",
+  "feature_type": "PubChemFP",
+  "model_performance_auc": 0.972,
+  "model_performance_accuracy": 0.923,
+  "fingerprint_statistics": {
+    "total_bits": 881,
+    "active_bits": 749,
+    "bit_sparsity": 85.01702610669693,
+    "average_bits_per_compound": 47.60353
+  }
+}

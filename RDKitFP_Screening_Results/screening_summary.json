@@ -1,0 +1,12 @@
+{
+  "total_compounds_screened": 100000,
+  "predicted_active": 24660,
+  "predicted_inactive": 75340,
+  "active_percentage": 24.66,
+  "inactive_percentage": 75.33999999999999,
+  "average_active_probability": 0.4217857196400033,
+  "model_name": "Random Forest",
+  "feature_type": "RDKitFP",
+  "model_performance_auc": 0.971,
+  "model_performance_accuracy": 0.924
+}

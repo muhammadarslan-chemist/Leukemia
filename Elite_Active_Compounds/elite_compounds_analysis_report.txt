@@ -1,0 +1,87 @@
+================================================================================
+ELITE ACTIVE COMPOUNDS ANALYSIS REPORT
+================================================================================
+Generated: 2026-01-23 18:19:06
+================================================================================
+
+1. EXECUTIVE SUMMARY
+----------------------------------------
+Total compounds screened: 100,000
+Compounds active in ALL 6 models: 532
+Success rate: 0.5320%
+Selection stringency: 6/6 model agreement
+
+2. ELITE COMPOUNDS STATISTICS
+----------------------------------------
+Average probability across models: 0.673
+Minimum probability: 0.535
+Maximum probability: 0.799
+Median probability: 0.675
+
+3. MODEL AGREEMENT ANALYSIS
+----------------------------------------
+Models considered: MorganFP, RDKitFP, RDKitDes, PubChemFP, PairsFP, MACCSFP
+
+MorganFP  : Avg=0.642, Min=0.504, Max=0.830
+RDKitFP   : Avg=0.565, Min=0.501, Max=0.670
+RDKitDes  : Avg=0.675, Min=0.500, Max=0.945
+PubChemFP : Avg=0.691, Min=0.500, Max=0.976
+PairsFP   : Avg=0.731, Min=0.500, Max=0.986
+MACCSFP   : Avg=0.737, Min=0.501, Max=0.986
+
+4. TOP 10 HIGHEST CONFIDENCE COMPOUNDS
+----------------------------------------
+ 1. ZINCsa000019qKJF
+    Average Probability: 0.799
+    SMILES: CC1(C)C[C@H]1C(=O)N1CCC[C@@](O)(CNC(=O)c2cnn3ccnc(N)c23)C1...
+
+ 2. ZINCrB00000c8p7x
+    Average Probability: 0.795
+    SMILES: Cc1cnc2[nH]cc(CN3[C@H](C(=O)N=c4[nH][nH]cc4I)[C@H]4CC[C@@H]3...
+
+ 3. ZINCrk000000oFQ5
+    Average Probability: 0.793
+    SMILES: COc1ncc(NC(=O)N2CCC(C)(c3nc(C)no3)CC2)cc1C(N)=O...
+
+ 4. ZINCto000008gs72
+    Average Probability: 0.793
+    SMILES: O=C(N[C@H]1CC[C@@H](CNC(=O)c2nncn2C2CC2)C1)c1c[nH]c2cccnc12...
+
+ 5. ZINCst000000HJBp
+    Average Probability: 0.784
+    SMILES: CC(C(=O)N1CC[C@H](Nc2ncc([N+](=O)[O-])cc2C(N)=O)C[C@H]1C)=C1...
+
+ 6. ZINCtm00001yyzMo
+    Average Probability: 0.782
+    SMILES: Cc1ccc(F)c(N)c1C(=O)N1CC(O)([C@@H](C)NC(=O)[C@@H]2C[C@H]2c2c...
+
+ 7. ZINCts00000uB2lU
+    Average Probability: 0.780
+    SMILES: CC1=NOC2(C1)CC(C(=O)NCCCCNC(=O)c1c[nH]c3nc(F)ccc13)C2...
+
+ 8. ZINCtE00000r7S7M
+    Average Probability: 0.779
+    SMILES: CC1=CC(F)=CC(C(=O)N[C@H]2CCN(C(=O)C3=CN=C4NC=CC4=C3)[C@H](C)...
+
+ 9. ZINCt5000004LqOa
+    Average Probability: 0.778
+    SMILES: C[C@@H]1CCN(C(=O)C(=O)Nc2ncc[nH]2)C[C@H]1CNC(=O)c1cc(O)cnc1N...
+
+10. ZINCsr000008pPQU
+    Average Probability: 0.778
+    SMILES: CC=C[C@@H](O)C(=O)N1CC(CC(C)(C)CNC(=O)c2c[nH]c3ncccc23)C1...
+
+5. FILES GENERATED
+----------------------------------------
+1. Elite_Active_Compounds\compounds_active_in_all_6_models.csv - Complete elite compounds dataset
+2. Elite_Active_Compounds\elite_compounds_simplified.csv - Simplified version
+3. Elite_Active_Compounds\top_100_elite_compounds.csv - Top 100 elite compounds
+
+6. NEXT STEPS
+----------------------------------------
+• Perform chemical similarity analysis on elite compounds
+• Cluster elite compounds by chemical structure
+• Generate 2D/3D visualizations of top compounds
+• Perform ADMET prediction on elite compounds
+• Validate top compounds with molecular docking
+================================================================================

@@ -1,0 +1,86 @@
+{
+  "total_compounds_screened": 100000,
+  "predicted_active": 31099,
+  "predicted_inactive": 68901,
+  "active_percentage": 31.099,
+  "inactive_percentage": 68.901,
+  "average_active_probability": 0.44067743966249034,
+  "model_name": "Random Forest",
+  "feature_type": "RDKitDes",
+  "model_performance_auc": 0.915,
+  "model_performance_accuracy": 0.866,
+  "descriptor_statistics": {
+    "MolWt": {
+      "mean": 386.96287746000013,
+      "std": 34.39776712876558,
+      "min": 147.19299999999998,
+      "max": 698.035
+    },
+    "LogP": {
+      "mean": 2.2810490086000015,
+      "std": 1.461723204520396,
+      "min": -4.0457999999999945,
+      "max": 8.3701
+    },
+    "TPSA": {
+      "mean": 80.75127730000003,
+      "std": 24.58291706806791,
+      "min": 0.0,
+      "max": 193.92000000000002
+    },
+    "HAcceptors": {
+      "mean": 4.7441,
+      "std": 1.5219248306010387,
+      "min": 1.0,
+      "max": 13.0
+    },
+    "HDonors": {
+      "mean": 1.52564,
+      "std": 0.9970770233036161,
+      "min": 0.0,
+      "max": 7.0
+    },
+    "RotBonds": {
+      "mean": 6.62189,
+      "std": 2.299117836888749,
+      "min": 0.0,
+      "max": 19.0
+    },
+    "AroRings": {
+      "mean": 1.22794,
+      "std": 0.8884499740559398,
+      "min": 0.0,
+      "max": 5.0
+    },
+    "AliRings": {
+      "mean": 1.72806,
+      "std": 1.1080020922362919,
+      "min": 0.0,
+      "max": 9.0
+    },
+    "Heteroatoms": {
+      "mean": 7.49555,
+      "std": 1.7836928540250419,
+      "min": 1.0,
+      "max": 17.0
+    },
+    "FracCSP3": {
+      "mean": 0.6200758244619274,
+      "std": 0.1791491265046995,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "HeavyAtoms": {
+      "mean": 26.90951,
+      "std": 2.0956721021906075,
+      "min": 10.0,
+      "max": 41.0
+    },
+    "RingCount": {
+      "mean": 2.956,
+      "std": 1.0362547949225616,
+      "min": 0.0,
+      "max": 9.0
+    }
+  }
+}
