@@ -77,7 +77,7 @@ This repository presents an integrated Machine Learning (ML) and Computer-Aided 
 
 ### 3. Molecular Docking
 - **Software**: AutoDock Vina / Glide
-- **Receptor**: FLT3 kinase domain (PDB: 6JQR)
+- **Receptor**: FLT3, JAK2, BTK, BCR-ABL
 - **Reference Drug**: Gilteritinib
 - **Analysis**: Binding energy scores, interaction fingerprints
 
