@@ -7,7 +7,7 @@
 
 ## 📋 Overview
 
-This repository presents an integrated Machine Learning (ML) and Computer-Aided Drug Design (CADD) approach for the discovery of novel FLT3 (FMS-like tyrosine kinase 3) inhibitors as potential therapeutic agents for leukemia treatment. FLT3 is a validated drug target in acute myeloid leukemia (AML). Our workflow combines ML-based virtual screening with molecular docking, molecular dynamics (MD) simulations, density functional theory (DFT) calculations, and ADMET profiling to identify promising hit compounds.
+This repository presents an integrated Machine Learning (ML) and Computer-Aided Drug Design (CADD) approach to discover novel multi-kinase inhibitors as potential therapeutic agents for leukemia treatment. Our workflow combines ML-based virtual screening with molecular docking, molecular dynamics (MD) simulations, density functional theory (DFT) calculations, and ADMET profiling to identify promising hit compounds.
 
 ## 🔬 Research Methodology
 
@@ -18,7 +18,7 @@ This repository presents an integrated Machine Learning (ML) and Computer-Aided 
 4. **Virtual Screening**: Screening 100,000 compounds from ZINC-22 database
 5. **Hit Selection**: Identification of compounds predicted to be active by all six models
 6. **ADMET Profiling**: Filtering compounds with favorable pharmacokinetic properties
-7. **Molecular Docking**: Docking with FLT3 receptor (PDB: 6JQR)
+7. **Molecular Docking**: Docking with FLT3, JAK2, BCR-ABL1, and BTK receptor
 8. **MD Simulations & DFT**: Validation of top candidates through dynamics and quantum mechanics
 
 
@@ -27,14 +27,14 @@ This repository presents an integrated Machine Learning (ML) and Computer-Aided 
 - **Initial Screening**: 100,000 compounds from ZINC-22 database
 - **ML Consensus**: 532 compounds predicted active by all six models
 - **ADMET Filtering**: 20 compounds with favorable pharmacokinetic profiles
-- **Docking Results**: 4 compounds with binding energies comparable to reference drug (gilteritinib)
-- **Final Candidates**: 4 novel scaffolds identified as potential FLT3 inhibitors
+- **Docking Results**: 2 compounds with binding energies comparable to the reference compounds
+- **Final Candidates**: 2 novel scaffolds identified as potential FLT3 inhibitors
 
 ## 📊 Dataset and Feature Engineering
 
 ### Data Source
 - **Database**: ChEMBL (www.ebi.ac.uk/chembl/)
-- **Target**: FLT3 kinase (UniProt ID: P36888)
+- **Target**: FLT3, JAK2, BCR-ABL1, BTK
 - **Activity Data**: IC50 values for active and inactive compounds
 - **Data Curation**: Standardization, duplicate removal, activity classification
 
@@ -53,7 +53,7 @@ This repository presents an integrated Machine Learning (ML) and Computer-Aided 
 
 ### Model Development
 - Trained separate ML models for each of the six feature types
-- Selected best-performing model based on AUC-ROC scores
+- Selected the best-performing model based on AUC-ROC scores
 - Algorithms evaluated: Random Forest, XGBoost, SVM, Neural Networks
 
 ### Consensus Screening Strategy
@@ -65,7 +65,7 @@ This repository presents an integrated Machine Learning (ML) and Computer-Aided 
 
 ### 1. Machine Learning
 - **Packages**: Scikit-learn, XGBoost, RDKit, Pandas, NumPy
-- **Validation**: 5-fold cross-validation, external test set
+- **Validation**: 10-fold cross-validation, external test set
 - **Metrics**: AUC-ROC, Accuracy, Precision, Recall, F1-score
 
 ### 2. ADMET Profiling
@@ -82,7 +82,7 @@ This repository presents an integrated Machine Learning (ML) and Computer-Aided 
 - **Analysis**: Binding energy scores, interaction fingerprints
 
 ### 4. Molecular Dynamics Simulations
-- **Software**: GROMACS / AMBER
+- **Software**: GROMACS 
 - **Timescale**: 100 ns simulations
 - **Analysis**: RMSD, RMSF, hydrogen bonding, binding free energy (MM-PBSA)
 
