@@ -1,4 +1,4 @@
-# Integrated Machine Learning and CADD Approach for Discovery of Novel FLT3 Tyrosine Kinase Inhibitors in Leukemia Treatment
+# Machine Learning-Assisted Computer-Aided Drug Discovery of Multi-Kinase inhibitors targeting FLT3, JAK2, BCR-ABL1, and BTK for Leukemia Therapy
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--learn-orange)
